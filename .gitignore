@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Spark / streaming
+jobs/checkpoints/
+spark-warehouse/
+*.log
+
+# Big files
+data/
+models/
+
+# IDE/OS
+.vscode/
+.DS_Store
+Thumbs.db
